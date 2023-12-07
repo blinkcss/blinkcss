@@ -1,0 +1,11 @@
+{
+  "name": "@tools/tsup",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "tsup": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1"
+  }
+}
