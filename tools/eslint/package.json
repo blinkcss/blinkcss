@@ -1,0 +1,16 @@
+{
+    "name": "@tools/eslint",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "eslint": "eslint",
+        "eslint:fix": "pnpm run eslint --fix"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.13.2",
+        "@typescript-eslint/parser": "^6.13.2",
+        "eslint": "^8.55.0",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "eslint-plugin-unused-imports": "^3.0.0"
+    }
+}
