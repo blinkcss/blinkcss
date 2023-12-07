@@ -39,6 +39,15 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)
 
+  tools/prettier:
+    devDependencies:
+      prettier:
+        specifier: ^3.1.0
+        version: 3.1.0
+      prettier-plugin-packagejson:
+        specifier: ^2.4.7
+        version: 2.4.7(prettier@3.1.0)
+
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:
