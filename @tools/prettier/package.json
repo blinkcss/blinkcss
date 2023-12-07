@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "prettier": "prettier",
+    "prettier:check": "pnpm run prettier --check",
     "prettier:write": "pnpm run prettier --write"
   },
   "devDependencies": {
