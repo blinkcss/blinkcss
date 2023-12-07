@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json.schemastore.org/lintstagedrc.schema",
+  "**/*.{js,jsx,ts,tsx}": [
+    "pnpm run --filter=@tools/eslint eslint:fix --config ./../eslint/.eslintrc.json"
+  ],
+  "**/*.{js,json,jsx,ts,tsx,yaml}": [
+    "pnpm run --filter=@tools/prettier prettier:write"
+  ]
+}

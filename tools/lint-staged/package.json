@@ -1,0 +1,11 @@
+{
+  "name": "@tools/lint-staged",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "lint-staged": "^15.2.0"
+  }
+}
