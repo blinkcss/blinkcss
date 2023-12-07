@@ -1,5 +1,14 @@
 {
     "name": "root",
     "version": "0.0.0",
-    "private": true
+    "private": true,
+    "scripts": {
+        "husky": "husky",
+        "husky:commit-msg": "pnpm --filter=@tools/commitlint commitlint:edit",
+        "husky:install": "pnpm run husky install",
+        "prepare": "pnpm run husky:install"
+    },
+    "devDependencies": {
+        "husky": "^8.0.3"
+    }
 }
