@@ -7,10 +7,12 @@
     "husky:commit-msg": "pnpm run --filter=@tools/commitlint commitlint:edit",
     "husky:install": "pnpm run husky install",
     "husky:pre-commit": "pnpm run --filter=@tools/lint-staged lint-staged",
-    "lint": "pnpm run --filter=@tools/eslint eslint:fix './../../*.{js,jsx,ts,tsx}' --config ./.eslintrc.json && pnpm run --filter=@tools/prettier prettier:write ./../../",
-    "prepare": "pnpm run husky:install"
+    "lint": "pnpm run --filter=@tools/eslint eslint:fix './../../**/*.{js,jsx,ts,tsx}' --config ./.eslintrc.json && pnpm run --filter=@tools/prettier prettier:write ./../../",
+    "prepare": "pnpm run husky:install",
+    "test": "pnpm run -r test"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "vitest": "^1.0.2"
   }
 }
