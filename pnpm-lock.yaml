@@ -12,7 +12,7 @@ importers:
         specifier: ^8.0.3
         version: 8.0.3
 
-  tools/commitlint:
+  '@tools/commitlint':
     devDependencies:
       '@commitlint/cli':
         specifier: ^18.4.3
@@ -21,7 +21,7 @@ importers:
         specifier: ^18.4.3
         version: 18.4.3
 
-  tools/eslint:
+  '@tools/eslint':
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.13.2
@@ -39,13 +39,13 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(@typescript-eslint/eslint-plugin@6.13.2)(eslint@8.55.0)
 
-  tools/lint-staged:
+  '@tools/lint-staged':
     devDependencies:
       lint-staged:
         specifier: ^15.2.0
         version: 15.2.0
 
-  tools/prettier:
+  '@tools/prettier':
     devDependencies:
       prettier:
         specifier: ^3.1.0
