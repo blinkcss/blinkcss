@@ -1,0 +1,12 @@
+{
+  "name": "@tools/vitest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "vitest": "vitest",
+    "vitest:run": "pnpm run vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.2"
+  }
+}
