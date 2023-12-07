@@ -1,0 +1,13 @@
+{
+    "name": "@tools/commitlint",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "commitlint": "commitlint",
+        "commitlint:edit": "pnpm commitlint --edit"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^18.4.3",
+        "@commitlint/config-conventional": "^18.4.3"
+    }
+}
