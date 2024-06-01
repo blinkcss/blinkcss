@@ -1,6 +1,8 @@
 {
   "name": "@playgrounds/storybook",
   "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
   "scripts": {
     "dev": "BROWSER=none pnpm run storybook dev -p 3000",
     "storybook": "storybook",

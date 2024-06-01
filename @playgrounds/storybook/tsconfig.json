@@ -1,4 +1,4 @@
 {
   "extends": ["@tools/typescript/tsconfig.json"],
-  "include": ["./.storybook/*.ts"]
+  "include": ["./.storybook", "./src"]
 }
