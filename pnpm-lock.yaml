@@ -48,6 +48,18 @@ importers:
         specifier: ^7.11.0
         version: 7.11.0(eslint@9.4.0)(typescript@5.4.5)
 
+  '@blinkcss/kebab':
+    devDependencies:
+      '@tools/typescript':
+        specifier: workspace:*
+        version: link:../../@tools/typescript
+      '@tools/vite':
+        specifier: workspace:*
+        version: link:../../@tools/vite
+      '@tools/vitest':
+        specifier: workspace:*
+        version: link:../../@tools/vitest
+
   '@playgrounds/storybook':
     devDependencies:
       '@storybook/addon-essentials':
