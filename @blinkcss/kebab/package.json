@@ -1,0 +1,22 @@
+{
+  "name": "@blinkcss/kebab",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "pnpm run vite:build",
+    "dev": "pnpm run vite:build --watch",
+    "test": "pnpm run vitest",
+    "tsc": "tsc",
+    "tsc:no-emit": "pnpm run tsc --noEmit",
+    "typecheck": "pnpm run tsc:no-emit",
+    "vite": "vite",
+    "vite:build": "pnpm run vite build",
+    "vitest": "vitest"
+  },
+  "devDependencies": {
+    "@tools/typescript": "workspace:*",
+    "@tools/vite": "workspace:*",
+    "@tools/vitest": "workspace:*"
+  }
+}
