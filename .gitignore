@@ -1,4 +1,5 @@
 .husky/_/
 node_modules/
+storybook-static/
 
 .DS_Store
