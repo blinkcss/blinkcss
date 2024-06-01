@@ -16,3 +16,16 @@ jobs:
 
       - run: pnpm run lint:check:all
         shell: bash
+
+  typecheck:
+    name: typecheck
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ./.github/actions/setup
+
+      - run: pnpm run typecheck
+        shell: bash
