@@ -1,0 +1,22 @@
+{
+  "name": "@playgrounds/storybook",
+  "type": "module",
+  "scripts": {
+    "dev": "BROWSER=none pnpm run storybook dev -p 3000",
+    "storybook": "storybook",
+    "tsc": "tsc",
+    "tsc:no-emit": "pnpm run tsc --noEmit",
+    "typecheck": "pnpm run tsc:no-emit"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.1.5",
+    "@storybook/blocks": "^8.1.5",
+    "@storybook/react": "^8.1.5",
+    "@storybook/react-vite": "^8.1.5",
+    "@storybook/test": "^8.1.5",
+    "@tools/typescript": "workspace:*",
+    "@tools/vite": "workspace:*",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.1.5"
+  }
+}
