@@ -1,3 +1,4 @@
+/// <reference types="@tools/vitest" />
 import { defineConfig } from "vite";
 import vitePluginDts from "vite-plugin-dts";
 
@@ -11,4 +12,7 @@ export const baseConfigVite = defineConfig({
     sourcemap: true,
   },
   plugins: [vitePluginDts()],
+  test: {
+    passWithNoTests: true,
+  },
 });
