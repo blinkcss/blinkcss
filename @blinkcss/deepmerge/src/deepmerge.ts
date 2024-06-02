@@ -1,5 +1,16 @@
-export const deepmerge = (object1: object, object2: object) =>
-  [object1, object2].reduce((deepmerged, object) => {
+import { Deepmerge } from "./types";
+
+export const deepmerge = <
+  Object1Type extends object,
+  Object2Type extends object,
+>(
+  object1: Object1Type,
+  object2: Object2Type,
+): Deepmerge<Object1Type, Object2Type> =>
+  [
+    object1 as Deepmerge<Object1Type, Object2Type>,
+    object2 as Deepmerge<Object1Type, Object2Type>,
+  ].reduce((deepmerged, object) => {
     Object.entries(object).forEach(([key, value]) => {
       const deepmergedKeyValue = deepmerged[key];
 
@@ -28,4 +39,4 @@ export const deepmerge = (object1: object, object2: object) =>
     });
 
     return deepmerged;
-  }, {});
+  });
