@@ -147,6 +147,9 @@ importers:
       '@tools/typescript':
         specifier: workspace:*
         version: link:../typescript
+      '@tools/vitest':
+        specifier: workspace:*
+        version: link:../vitest
       vite:
         specifier: ^5.2.12
         version: 5.2.12(@types/node@20.13.0)
